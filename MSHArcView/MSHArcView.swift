@@ -10,13 +10,13 @@ import UIKit
 
 let π:CGFloat = CGFloat(M_PI)
 
-@IBDesignable public class ArcView: UIView {
+@IBDesignable public class MSHArcView: UIView {
     
     private let maxValue = 100
     private let circularTrack = CAShapeLayer()
     private let circularProgress = CAShapeLayer()
-    private let animationTimeInSeconds: CFTimeInterval = 1.0
-    private let arcWidth: CGFloat = 5
+    private let animationTimeInSeconds: CFTimeInterval = 0.75
+    private let arcWidth: CGFloat = 7
 
     private var path: UIBezierPath!
     
