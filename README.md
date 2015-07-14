@@ -2,7 +2,7 @@
 An Inpspectable Arc View for iOS 8-9
 
 A 3/4 static arc view to display progress.
-==============
+--------------
 
 - Made with Swift
 - iOS 8-9 at for now.
@@ -10,7 +10,7 @@ A 3/4 static arc view to display progress.
 
 
 Best usage
-==============
+--------------
 
 - Create a View in Storyboard/Xib file
 - Change its subclass to MSHArcView
